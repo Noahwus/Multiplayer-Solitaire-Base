@@ -2,6 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// CardSlot operates as a hub, connecting Gameobjects (Node) and Slot Data (Data)
+/// </summary>
+
 public class CardSlot : MonoBehaviour
 {    
     public SlotData Data { get; private set; }

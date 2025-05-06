@@ -3,6 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Rendering;
 
+/// <summary>
+/// SlotNode is our Gameobject. This is where card's will aim to go when sent to a "CardSlot", how we know which cardslots are what type, and to know what
+///     card stack offsets are necessary to display the Cards correctly
+/// </summary>
+
 public enum SlotType { Deck, Discard, Play, Score, Recycle, Unknown }
 
 public class SlotNode : MonoBehaviour
@@ -63,7 +68,6 @@ public class SlotNode : MonoBehaviour
     public void ToggleCollider(bool active)
     {
         col.enabled = active;
-        //Debug.Log($"This col is set to: {Utils.TF(active)}!");
     }
    
 }

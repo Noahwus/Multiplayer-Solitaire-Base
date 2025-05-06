@@ -1,0 +1,888 @@
+Using pre-set license
+Built from '2022.3/release' branch; Version is '2022.3.61f1 (6c53ebaf375d) revision 7099371'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'en' Physical Memory: 65305 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.61f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/UnityProjects/Multiplayer-Solitaire-Base
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+56983
+Successfully changed project path to: C:/UnityProjects/Multiplayer-Solitaire-Base
+C:/UnityProjects/Multiplayer-Solitaire-Base
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [9428]  Target information:
+
+Player connection [9428]  * "[IP] 192.168.1.186 [Port] 0 [Flags] 2 [Guid] 4113128027 [EditorId] 4113128027 [Version] 1048832 [Id] WindowsEditor(7,Noahw) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [9428] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [9428] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.61f1 (6c53ebaf375d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.61f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/UnityProjects/Multiplayer-Solitaire-Base/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3080 (ID=0x2206)
+    Vendor:   NVIDIA
+    VRAM:     10053 MB
+    Driver:   32.0.15.7602
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.61f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.61f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.61f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56620
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.61f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004463 seconds.
+- Loaded All Assemblies, in  0.208 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.150 seconds
+Domain Reload Profiling: 357ms
+	BeginReloadAssembly (66ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (81ms)
+		LoadAssemblies (65ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (79ms)
+			TypeCache.Refresh (78ms)
+				TypeCache.ScanAssembly (70ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (150ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (123ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (84ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.126 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.184 seconds
+Domain Reload Profiling: 310ms
+	BeginReloadAssembly (84ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (13ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (5ms)
+	initialDomainReloadingComplete (13ms)
+	LoadAllAssembliesAndSetupDomain (4ms)
+		LoadAssemblies (50ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (3ms)
+			TypeCache.Refresh (2ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (185ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (118ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (18ms)
+			ProcessInitializeOnLoadAttributes (77ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 45 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3 unused Assets / (48.9 KB). Loaded Objects now: 516.
+Memory consumption went from 51.9 MB to 51.8 MB.
+Total: 2.636500 ms (FindLiveObjects: 0.027300 ms CreateObjectMapping: 0.003500 ms MarkObjects: 2.538000 ms  DeleteObjects: 0.067200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 100079.740805 seconds.
+  path: Assets/Scripts/CardComponents/CardInstance.cs
+  artifactKey: Guid(de4a8d8b1dc60054c871f0086c4c961c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CardComponents/CardInstance.cs using Guid(de4a8d8b1dc60054c871f0086c4c961c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '522b98b8e50f0e79f179cbeadf7f61a6') in 0.003155 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.300410 seconds.
+  path: Assets/Scripts/CardComponents/Card.cs
+  artifactKey: Guid(af8d9ae4fb0e64c40b9bf91fe7962b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CardComponents/Card.cs using Guid(af8d9ae4fb0e64c40b9bf91fe7962b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'da09bedc8ed33af6f01e265b93a31453') in 0.000443 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.207130 seconds.
+  path: Assets/Scripts/CardComponents/CardFactory.cs
+  artifactKey: Guid(ba8ef0871067053428614f1be00358df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CardComponents/CardFactory.cs using Guid(ba8ef0871067053428614f1be00358df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '894967e98837986d54e6657da9c58fc9') in 0.000844 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.505496 seconds.
+  path: Assets/Scripts/CardComponents/CardModifiers.cs
+  artifactKey: Guid(c5badc5459f6e3a4cac675ecadd5c355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CardComponents/CardModifiers.cs using Guid(c5badc5459f6e3a4cac675ecadd5c355) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '5789bf1bdc9e874d4444060a109885aa') in 0.000466 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 24.726032 seconds.
+  path: Assets/Settings/SampleSceneProfile.asset
+  artifactKey: Guid(a6560a915ef98420e9faacc1c7438823) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Settings/SampleSceneProfile.asset using Guid(a6560a915ef98420e9faacc1c7438823) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'db383af9a1bbd34d42ff6b5b6cc68744') in 0.070432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Settings/URP-Performant-Renderer.asset
+  artifactKey: Guid(707360a9c581a4bd7aa53bfeb1429f71) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Settings/URP-Performant-Renderer.asset using Guid(707360a9c581a4bd7aa53bfeb1429f71) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '69b2dd02019a955542c807fb94d2581f') in 0.012139 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Card_Visuals/PNG-cards-1.3/queen_of_diamonds2.png
+  artifactKey: Guid(30408f8b260db474088fd3b64418e317) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Card_Visuals/PNG-cards-1.3/queen_of_diamonds2.png using Guid(30408f8b260db474088fd3b64418e317) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '097f83c0badf9cd992e8a489c3851e51') in 0.071643 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Card_Visuals/PNG-cards-1.3/4_of_diamonds.png
+  artifactKey: Guid(2f6d3214578aa69459f7a72759653f56) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Card_Visuals/PNG-cards-1.3/4_of_diamonds.png using Guid(2f6d3214578aa69459f7a72759653f56) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '01248f3b49b8186598c7ec6aaf325ecb') in 0.015779 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Card_Visuals/PNG-cards-1.3/king_of_diamonds.png
+  artifactKey: Guid(548de2dfb24310f409e277eb7084c426) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Card_Visuals/PNG-cards-1.3/king_of_diamonds.png using Guid(548de2dfb24310f409e277eb7084c426) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '2f553b077837e160ed24cbbd9b1b73bd') in 0.019821 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Card_Visuals/CardBack_Mats/m_CardBack1.mat
+  artifactKey: Guid(f4853c332b51e9244912cd6d8786a8dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Card_Visuals/CardBack_Mats/m_CardBack1.mat using Guid(f4853c332b51e9244912cd6d8786a8dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'aae76c9846bbe506a9eae7a20365bd72') in 0.017893 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Card_Visuals/PNG-cards-1.3/6_of_diamonds.png
+  artifactKey: Guid(beb07470aeba79642b772c4a801cf4b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Card_Visuals/PNG-cards-1.3/6_of_diamonds.png using Guid(beb07470aeba79642b772c4a801cf4b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'e6662a9c580fd8974940d80fbbd18561') in 0.019431 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/Card_Visuals/PNG-cards-1.3/black_joker.png
+  artifactKey: Guid(9b5910cda5bec0f4684474eb5b9a06cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Card_Visuals/PNG-cards-1.3/black_joker.png using Guid(9b5910cda5bec0f4684474eb5b9a06cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '4d1d5f7dcff16a9b53423e8190750d0b') in 0.022142 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Card_Visuals/PNG-cards-1.3/2_of_diamonds.png
+  artifactKey: Guid(187df7aeb59e1874ea03e277d1bb000b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Card_Visuals/PNG-cards-1.3/2_of_diamonds.png using Guid(187df7aeb59e1874ea03e277d1bb000b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '431153fe275463192182f34f637b93ea') in 0.021613 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Card_Visuals/PNG-cards-1.3/king_of_hearts2.png
+  artifactKey: Guid(1542e19a4bdcc6d4684271d0ea8ce578) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Card_Visuals/PNG-cards-1.3/king_of_hearts2.png using Guid(1542e19a4bdcc6d4684271d0ea8ce578) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '7145e75d4ea965f52b242fd30daa1252') in 0.018321 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Card_Visuals/PNG-cards-1.3/10_of_clubs.png
+  artifactKey: Guid(fabe356f483fabd4c99612cc756fd131) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Card_Visuals/PNG-cards-1.3/10_of_clubs.png using Guid(fabe356f483fabd4c99612cc756fd131) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '37ffa337583eabd4b763ead53e5aefcc') in 0.017062 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Card_Visuals/Patterns/CardBack_Pattern3 1.png
+  artifactKey: Guid(bb62652b1ebcb7c4095347b870f4bed7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Card_Visuals/Patterns/CardBack_Pattern3 1.png using Guid(bb62652b1ebcb7c4095347b870f4bed7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '74126483d91f9d6b3b32328c5179c419') in 0.020814 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Card_Visuals/CardBack_Mats/m_CardBack2.mat
+  artifactKey: Guid(63c928d6526ef61469ec72f12b78a6a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Card_Visuals/CardBack_Mats/m_CardBack2.mat using Guid(63c928d6526ef61469ec72f12b78a6a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'e980d6d9ae11795f8575d6e176e6347e') in 0.014667 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Card_Visuals/PNG-cards-1.3/8_of_spades.png
+  artifactKey: Guid(35d8d5a040fa37e4585c9ed4cec94537) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Card_Visuals/PNG-cards-1.3/8_of_spades.png using Guid(35d8d5a040fa37e4585c9ed4cec94537) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '4ba447020f919c92b8056636fc66a8ae') in 0.017713 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Card_Visuals/PNG-cards-1.3/6_of_clubs.png
+  artifactKey: Guid(fee686e5937390945905b4e9fa57d0b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Card_Visuals/PNG-cards-1.3/6_of_clubs.png using Guid(fee686e5937390945905b4e9fa57d0b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '6aa8f3e59812e5130c062350e9bc057d') in 0.013142 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Card_Visuals/Mat_Images/CardBack.png
+  artifactKey: Guid(cbac0c615dc520345b2f7b0f50f26e7a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Card_Visuals/Mat_Images/CardBack.png using Guid(cbac0c615dc520345b2f7b0f50f26e7a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'c8da0595e16c8fd200476aed02d2e189') in 0.011959 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Card_Visuals/PNG-cards-1.3/4_of_clubs.png
+  artifactKey: Guid(d0b239c2aed44104fa1c85cc4024350b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Card_Visuals/PNG-cards-1.3/4_of_clubs.png using Guid(d0b239c2aed44104fa1c85cc4024350b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '0caf518a842bfc38dceb156b8c6ca209') in 0.020584 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Card_Visuals/CardBack_Mats/m_Card1 1 Variant.mat
+  artifactKey: Guid(92d6633d31375774a99bf8debc9412eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Card_Visuals/CardBack_Mats/m_Card1 1 Variant.mat using Guid(92d6633d31375774a99bf8debc9412eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'bc21534b9675fa5702b4e810fb7118a3') in 0.016324 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Card_Visuals/PNG-cards-1.3/jack_of_hearts2.png
+  artifactKey: Guid(1fccd1a87dda1e645a551d679a5bb442) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Card_Visuals/PNG-cards-1.3/jack_of_hearts2.png using Guid(1fccd1a87dda1e645a551d679a5bb442) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'ed19b799c1b1640a4a74a086db99424a') in 0.025533 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Card_Visuals/CardBack_Mats/m_CardPattern2.mat
+  artifactKey: Guid(b6fe8432419221a498a63382843293d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Card_Visuals/CardBack_Mats/m_CardPattern2.mat using Guid(b6fe8432419221a498a63382843293d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '0d884cf83e48512a969b8bf6e2748868') in 0.016550 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Card_Visuals/PNG-cards-1.3/5_of_clubs.png
+  artifactKey: Guid(65ca3dba94fd36448b345f2fe3574b08) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Card_Visuals/PNG-cards-1.3/5_of_clubs.png using Guid(65ca3dba94fd36448b345f2fe3574b08) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '28ee4433b8f9c5e27f899407a5bd9f7f') in 0.024227 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Card_Visuals/CardBack_Mats/m_Card1 2 Variant.mat
+  artifactKey: Guid(1d7a784319949cb4db894dd548445ec5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Card_Visuals/CardBack_Mats/m_Card1 2 Variant.mat using Guid(1d7a784319949cb4db894dd548445ec5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'c12e021eee77807662c4b4d609e92f91') in 0.016356 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Settings/URP-Performant.asset
+  artifactKey: Guid(d0e2fc18fe036412f8223b3b3d9ad574) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Settings/URP-Performant.asset using Guid(d0e2fc18fe036412f8223b3b3d9ad574) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '0479165aabcae35f8c701889487a0d8c') in 0.014089 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Card_Visuals/PNG-cards-1.3/king_of_spades2.png
+  artifactKey: Guid(78d8e582f3a56d2469e430d9e4ebabc0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Card_Visuals/PNG-cards-1.3/king_of_spades2.png using Guid(78d8e582f3a56d2469e430d9e4ebabc0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'bae7ab88d0193745cbeea5a08041b15b') in 0.017417 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Card_Visuals/CardMats/m_CardBackNoSpecular.mat
+  artifactKey: Guid(90518a0a0a7e2654596f514cafa7a40c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Card_Visuals/CardMats/m_CardBackNoSpecular.mat using Guid(90518a0a0a7e2654596f514cafa7a40c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '4797534e67f742249912e1a0c2c30d73') in 0.014543 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Scripts/Games/Solitaire.cs
+  artifactKey: Guid(13c8c38750c061e4f8bd214bf59a9aa1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/Games/Solitaire.cs using Guid(13c8c38750c061e4f8bd214bf59a9aa1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'e3b2a0bbf157679789d936abc19dad99') in 0.014120 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Scripts/DataSerialization/CardMoveData.cs
+  artifactKey: Guid(efce118d89d67b94d8fdbb079780bc0e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/DataSerialization/CardMoveData.cs using Guid(efce118d89d67b94d8fdbb079780bc0e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '90573318689d3b7a5b7bc9fe4ac2fae7') in 0.013972 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Scripts/Managers/CardMoveManager.cs
+  artifactKey: Guid(2cf6873308516a542978508b304c0f6b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/Managers/CardMoveManager.cs using Guid(2cf6873308516a542978508b304c0f6b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'e6d94a673996c2b8c4361bec36d1f911') in 0.015543 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Scripts/Utils/Quit.cs
+  artifactKey: Guid(ba893e752534e31429b947b5f739b69d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/Utils/Quit.cs using Guid(ba893e752534e31429b947b5f739b69d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '87578e1463ed4c1a70340515bb05b54d') in 0.014129 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Scripts/Managers/CardInteractManager.cs
+  artifactKey: Guid(147f912d76e17e245840983ef2107ba2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/Managers/CardInteractManager.cs using Guid(147f912d76e17e245840983ef2107ba2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'b94c41eb0ed1ddee6da8d1ca8ea1c9cd') in 0.014493 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Scripts/Managers/SoundManager.cs
+  artifactKey: Guid(4707b56f84e975c4cab22efe4bcc11e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/Managers/SoundManager.cs using Guid(4707b56f84e975c4cab22efe4bcc11e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '1e7931637754032807b7259d23103b26') in 0.012792 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Scripts/CardComponents/Card.cs
+  artifactKey: Guid(af8d9ae4fb0e64c40b9bf91fe7962b6c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/CardComponents/Card.cs using Guid(af8d9ae4fb0e64c40b9bf91fe7962b6c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '1577e5a28b40fd5b9b47886793d0208e') in 0.008735 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Scripts/DataSerialization/CardModifierData.cs
+  artifactKey: Guid(138cbb4b188e08543a9a85f4b492cef5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/DataSerialization/CardModifierData.cs using Guid(138cbb4b188e08543a9a85f4b492cef5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'c866f5cac813967c5be6ef13cb2b96b1') in 0.015062 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Scripts/CardComponents/CardFactory.cs
+  artifactKey: Guid(ba8ef0871067053428614f1be00358df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/CardComponents/CardFactory.cs using Guid(ba8ef0871067053428614f1be00358df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '4ba8eae15fa542b487719d90a5498f2c') in 0.014713 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Scripts/Utils/CardUtils.cs
+  artifactKey: Guid(89be6574bae498344ab0467ecf9cb9e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/Utils/CardUtils.cs using Guid(89be6574bae498344ab0467ecf9cb9e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'cb80cc7ebf5b08c76b993e8a91e99f92') in 0.010197 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Scripts/CardSlots/SlotData.cs
+  artifactKey: Guid(28c351674f47f554dbe3a044629132f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/CardSlots/SlotData.cs using Guid(28c351674f47f554dbe3a044629132f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '0481cf6bb7c8d69616a5c05b650b215e') in 0.011389 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Scripts/Managers/SlotManager.cs
+  artifactKey: Guid(77e043f9a4b8c8341906873f7c7c332e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/Managers/SlotManager.cs using Guid(77e043f9a4b8c8341906873f7c7c332e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '7e07d700e110f0e61f348a76f166b77e') in 0.014624 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Card_Visuals/PNG-cards-1.3/5_of_hearts.png
+  artifactKey: Guid(87c413fe0aee0b040b1aa20533bf402c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Card_Visuals/PNG-cards-1.3/5_of_hearts.png using Guid(87c413fe0aee0b040b1aa20533bf402c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '91e002039769385f9c32c4c1ec39f1b3') in 0.020870 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Card_Visuals/PNG-cards-1.3/jack_of_spades.png
+  artifactKey: Guid(77c00334759179147a717be1e863573e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Card_Visuals/PNG-cards-1.3/jack_of_spades.png using Guid(77c00334759179147a717be1e863573e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'b751f82eeafc005f3f8251c7eba5af97') in 0.021435 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Card_Visuals/PNG-cards-1.3/10_of_spades.png
+  artifactKey: Guid(8258cd068f17c24438a69d8ca1891207) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Card_Visuals/PNG-cards-1.3/10_of_spades.png using Guid(8258cd068f17c24438a69d8ca1891207) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'be9c901fbd3af2258090d4decae16770') in 0.023479 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Shaders/shader_CardBack.shadergraph
+  artifactKey: Guid(76b76c42051afa645baf8325766bd9f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Shaders/shader_CardBack.shadergraph using Guid(76b76c42051afa645baf8325766bd9f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '55cce6df24fa782a7254d5a186ba33ff') in 0.013587 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Scripts/Managers/FaceMaterialManager.cs
+  artifactKey: Guid(e6c51fda30c3a1242922ce5ade989a26) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/Managers/FaceMaterialManager.cs using Guid(e6c51fda30c3a1242922ce5ade989a26) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'bf26da3d1d361dbb5dd9c295adba432e') in 0.017398 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Scripts/CardComponents/CardVisual.cs
+  artifactKey: Guid(d9777e1df52810d4ba98014dc3b60382) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/CardComponents/CardVisual.cs using Guid(d9777e1df52810d4ba98014dc3b60382) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'ac65cdb9fc75e010f953cb740fbc4f54') in 0.015821 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/Card_Visuals/PNG-cards-1.3/6_of_spades.png
+  artifactKey: Guid(abb54b20489418742adc9292f69eee1d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Card_Visuals/PNG-cards-1.3/6_of_spades.png using Guid(abb54b20489418742adc9292f69eee1d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '23875ee8f76b50c5dc7a9987ca29e753') in 0.021409 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Card_Visuals/CardBack_Mats/m_CardPattern1.mat
+  artifactKey: Guid(f8b50ba51f8bbbf409a44bb954a61009) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Card_Visuals/CardBack_Mats/m_CardPattern1.mat using Guid(f8b50ba51f8bbbf409a44bb954a61009) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '1b98700c5293f6779427fa73a2e796c6') in 0.017062 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Card_Visuals/PNG-cards-1.3/jack_of_clubs2.png
+  artifactKey: Guid(b5b91188cfd92f646bfc40a7135d3656) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Card_Visuals/PNG-cards-1.3/jack_of_clubs2.png using Guid(b5b91188cfd92f646bfc40a7135d3656) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '4b65c020ec04973f2967713549458519') in 0.018556 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Scripts/CardComponents/CardTemplate.cs
+  artifactKey: Guid(d71c0c5fa51d3254ab35d5654bea0223) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/CardComponents/CardTemplate.cs using Guid(d71c0c5fa51d3254ab35d5654bea0223) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '8183692f547eee957ec24141564f3393') in 0.014973 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Card_Visuals/PNG-cards-1.3/ace_of_diamonds.png
+  artifactKey: Guid(316772ff4b9a0fa4db3c268e3b564804) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Card_Visuals/PNG-cards-1.3/ace_of_diamonds.png using Guid(316772ff4b9a0fa4db3c268e3b564804) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '98c0be78ab9557a39a98cc298b356ca0') in 0.025591 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002556 seconds.
+  path: Assets/Card_Visuals/Mat_Images/CardBackOutline.png
+  artifactKey: Guid(ca854a7d23c919d4a9d8c7838f2b9748) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Card_Visuals/Mat_Images/CardBackOutline.png using Guid(ca854a7d23c919d4a9d8c7838f2b9748) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'd9a4ca7e78c630c4211a7bddb323a67c') in 0.022450 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Scripts/CardComponents/Moveable.cs
+  artifactKey: Guid(20d21de166a11d54e86dbfe218ad2525) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/CardComponents/Moveable.cs using Guid(20d21de166a11d54e86dbfe218ad2525) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'e1a902145b70d0afbbeb2f73c802cb0b') in 0.017370 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Card_Visuals/PNG-cards-1.3/8_of_hearts.png
+  artifactKey: Guid(c2d9805aa99732e489eab4d573bb3e9b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Card_Visuals/PNG-cards-1.3/8_of_hearts.png using Guid(c2d9805aa99732e489eab4d573bb3e9b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '481a405278658a84693d31ac327a17a2') in 0.023943 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Scripts/DataSerialization/OwnerSteamPair.cs
+  artifactKey: Guid(ef47c87e335cc5945a12abab85830cbf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/DataSerialization/OwnerSteamPair.cs using Guid(ef47c87e335cc5945a12abab85830cbf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'eef36d361103bac7a9591a4c47c488c0') in 0.014668 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Card_Visuals/CardBack_Mats/m_Card1 2.mat
+  artifactKey: Guid(85806ef0dca7c4a4d903b5f9b721162c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Card_Visuals/CardBack_Mats/m_Card1 2.mat using Guid(85806ef0dca7c4a4d903b5f9b721162c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'a058da96cde4159b69ef915bde0e447c') in 0.011304 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Card_Visuals/Mat_Images/Card_Alpha1.png
+  artifactKey: Guid(1ba4f1c8f06508e4a83e0ed3467d8f66) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Card_Visuals/Mat_Images/Card_Alpha1.png using Guid(1ba4f1c8f06508e4a83e0ed3467d8f66) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '3a07c1eada8794f0fdc6278b770e7725') in 0.019375 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Card_Visuals/PNG-cards-1.3/7_of_clubs.png
+  artifactKey: Guid(03d584671aaedad45b21372d712f92d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Card_Visuals/PNG-cards-1.3/7_of_clubs.png using Guid(03d584671aaedad45b21372d712f92d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'd12990aae10cc1284c4e3338c72f9f8f') in 0.023036 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Card_Visuals/PNG-cards-1.3/jack_of_clubs.png
+  artifactKey: Guid(b5ed252c672125646b528b0775e29fa8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Card_Visuals/PNG-cards-1.3/jack_of_clubs.png using Guid(b5ed252c672125646b528b0775e29fa8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '0efd070614c10ee6eac7c4cd967c3252') in 0.020178 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Card_Visuals/PNG-cards-1.3/10_of_hearts.png
+  artifactKey: Guid(900d517263d890e4dbaf3c003f46d435) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Card_Visuals/PNG-cards-1.3/10_of_hearts.png using Guid(900d517263d890e4dbaf3c003f46d435) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '3450a734ef04519a545a38d1da704473') in 0.022452 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Scripts/Games/Game.cs
+  artifactKey: Guid(7fadb341621ca8649a56ba8c75673034) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/Games/Game.cs using Guid(7fadb341621ca8649a56ba8c75673034) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'c9dbfbe14ddd5863d6525f1aa5a8c1aa') in 0.015255 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Scripts/Utils/MouseHoverScript.cs
+  artifactKey: Guid(627c9314704babc4398faf6f02283e3e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/Utils/MouseHoverScript.cs using Guid(627c9314704babc4398faf6f02283e3e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'cdd90560c753413ea9212bde1bffd62d') in 0.014672 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Settings/URP-HighFidelity-Renderer.asset
+  artifactKey: Guid(c40be3174f62c4acf8c1216858c64956) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Settings/URP-HighFidelity-Renderer.asset using Guid(c40be3174f62c4acf8c1216858c64956) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '8116dba054fa98ed90d9b8a1712ca4a4') in 0.015826 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Card_Visuals/PNG-cards-1.3/9_of_spades.png
+  artifactKey: Guid(ef25810e359d1f149ae7d1e9dadd41ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Card_Visuals/PNG-cards-1.3/9_of_spades.png using Guid(ef25810e359d1f149ae7d1e9dadd41ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '5582b8ffd4850144db54d1721437fc30') in 0.021093 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/Scripts/Utils/Singleton.cs
+  artifactKey: Guid(374aaa384182d0f4a932f6fa5665bbb7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/Utils/Singleton.cs using Guid(374aaa384182d0f4a932f6fa5665bbb7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'fc70c0a48315dff40de3ef48789e7a7d') in 0.016181 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Card_Visuals/CardBack_Mats/m_CardPattern4.mat
+  artifactKey: Guid(969e1b3b257c79143a19ea3ccd67421d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Card_Visuals/CardBack_Mats/m_CardPattern4.mat using Guid(969e1b3b257c79143a19ea3ccd67421d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '8a3295230c28a4dd45160c88afe075ba') in 0.015383 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Card_Visuals/PNG-cards-1.3/7_of_diamonds.png
+  artifactKey: Guid(78cf6c2f7d714634585fef440646973f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Card_Visuals/PNG-cards-1.3/7_of_diamonds.png using Guid(78cf6c2f7d714634585fef440646973f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '31f2395da949fadf627d46a2c38db87e') in 0.017666 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Scripts/Managers/CardManager.cs
+  artifactKey: Guid(fb063ca39a011434fb5ca4cc994c8770) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/Managers/CardManager.cs using Guid(fb063ca39a011434fb5ca4cc994c8770) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'd7d936676a18089b19198b358f1f15fc') in 0.015365 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Card_Visuals/CardBack_Mats/m_CardPattern3.mat
+  artifactKey: Guid(4dd0f1a1cead77c4f93604cc513e4997) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Card_Visuals/CardBack_Mats/m_CardPattern3.mat using Guid(4dd0f1a1cead77c4f93604cc513e4997) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'db3cf932933174d6cbf9fb57d4fa1785') in 0.013951 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Card_Visuals/PNG-cards-1.3/4_of_spades.png
+  artifactKey: Guid(e1294e5060c58074eb466cb6404150ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Card_Visuals/PNG-cards-1.3/4_of_spades.png using Guid(e1294e5060c58074eb466cb6404150ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '7409cb970b71c281035c7b37e68f14a5') in 0.012906 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Card_Visuals/PNG-cards-1.3/queen_of_spades2.png
+  artifactKey: Guid(dd816a9a848620d46b75e9ccad2509a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Card_Visuals/PNG-cards-1.3/queen_of_spades2.png using Guid(dd816a9a848620d46b75e9ccad2509a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '389dcaf088df003d1d7f24eefc7fa7d4') in 0.019873 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Card_Visuals/PNG-cards-1.3/8_of_clubs.png
+  artifactKey: Guid(6a4e23685f5156b4a8f1380d926c95ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Card_Visuals/PNG-cards-1.3/8_of_clubs.png using Guid(6a4e23685f5156b4a8f1380d926c95ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'bb2ab497bda0a809ae0c099ce2e9b314') in 0.021287 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/Card_Visuals/PNG-cards-1.3/queen_of_hearts2.png
+  artifactKey: Guid(86d0c5015a5a91c4d93a70efd6257175) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Card_Visuals/PNG-cards-1.3/queen_of_hearts2.png using Guid(86d0c5015a5a91c4d93a70efd6257175) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '444b08325caf9e6e895db437239c16ec') in 0.024844 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Card_Visuals/PNG-cards-1.3/2_of_clubs.png
+  artifactKey: Guid(a0677cdcc83786048a5af7e79bc177ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Card_Visuals/PNG-cards-1.3/2_of_clubs.png using Guid(a0677cdcc83786048a5af7e79bc177ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '1b776cd3419b2bd5b3ce7c0494687496') in 0.021170 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Scripts/CardComponents/CardInstance.cs
+  artifactKey: Guid(de4a8d8b1dc60054c871f0086c4c961c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/CardComponents/CardInstance.cs using Guid(de4a8d8b1dc60054c871f0086c4c961c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '7b103085ebc51ef7cab01d3c8af3945f') in 0.016672 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Card_Visuals/PNG-cards-1.3/9_of_clubs.png
+  artifactKey: Guid(b229a0749c63c3141a85c5fabb06bebc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Card_Visuals/PNG-cards-1.3/9_of_clubs.png using Guid(b229a0749c63c3141a85c5fabb06bebc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '900ce1dd61a954556ae6aa0847e90858') in 0.026854 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Card_Visuals/PNG-cards-1.3/king_of_diamonds2.png
+  artifactKey: Guid(b3a6815c72e39114b824ced818366df1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Card_Visuals/PNG-cards-1.3/king_of_diamonds2.png using Guid(b3a6815c72e39114b824ced818366df1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'ebead97aa457b1870eb6a3ae2e1e64f6') in 0.021279 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

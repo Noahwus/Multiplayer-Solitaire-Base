@@ -4,6 +4,10 @@ using System.Linq;
 [System.Serializable]
 public class CardInstance
 {
+    /// <summary>
+    /// CardInstance operates as an instance of "Card Template", which is created via CardFactory.cs
+    /// </summary>
+   
     public int ownerID;
     public string cardID;
     public bool isFaceUp;
@@ -34,7 +38,6 @@ public class CardInstance
         modifiers.Add(mod);
     }
 
-    #region Valuable Data Yeet
     public CardInstance(CardTemplate template, int ownerID, bool isFaceUp = false)
     {
         this.template = template;
@@ -43,30 +46,4 @@ public class CardInstance
         cardID = template.name + "_" + ownerID;
         cardDebugName = $"{CardUtils.GetDisplayValue(GetValue())}_of_{Utils.ColorText(GetSuit().ToString(), CardUtils.GetColorFromColor(GetColor()))}_{ownerID.ToString()}";
     }
-
-    //public CardInstanceData ToData()
-    //{
-    //    List<CardModifierData> modsData = modifiers.Select(m => m.ToData()).ToList();
-
-    //    return new CardInstanceData
-    //    {
-    //        CardID = cardID,
-    //        //SlotID = SlotID,
-    //        IsFaceUp = isFaceUp,
-    //        OwnerID = ownerID,
-    //        Modifiers = modsData
-    //    };
-    //}
-
-    //public void LoadFromData(CardInstanceData data)
-    //{
-    //    cardID = data.CardID;
-    //    //SlotID = data.SlotID;
-    //    isFaceUp = data.IsFaceUp;
-    //    ownerID = data.OwnerID;
-    //    modifiers = data.Modifiers.Select(CardModifier.FromData).ToList();
-    //}
-    #endregion
-
-    
 }

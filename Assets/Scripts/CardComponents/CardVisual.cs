@@ -43,15 +43,11 @@ public class CardVisual : MonoBehaviour
 
     public void SetCardFace(Material cardMaterial, Renderer renderer = null)
     {
-        //yield return new WaitForSeconds(.2f);
-
         if (renderer == null || cardMaterial == null) 
         {   
             if (renderer == null){ renderer = faceRenderer; }
-            if (cardMaterial == null) { Debug.Log("Material is null."); return; } //yield break;  }
-       
+            if (cardMaterial == null) { Debug.Log("Material is null."); return; }
         }
-
         renderer.material = cardMaterial;
     }
 

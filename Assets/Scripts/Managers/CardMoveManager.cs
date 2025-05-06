@@ -8,6 +8,13 @@ using System.Data.Common;
 using UnityEngine;
 using UnityEngine.UIElements;
 
+/// <summary>
+/// CardMoveManager manages where every card will go on "CardUpdate"
+/// RequestMove() is our main Local function call to attempt a card move, before sending movedata to the Server Host
+///     to validate
+/// 
+/// </summary>
+
 public class CardMoveManager : SingletonNetworkBehaviour<CardMoveManager>
 {
     private void Awake() => NewInstance(this);
@@ -29,7 +36,6 @@ public class CardMoveManager : SingletonNetworkBehaviour<CardMoveManager>
         if (isUpdating != null) 
             { StopCoroutine(isUpdating); }
 
-        //Debug.Log("updating with " + delay + " delay, and " + altLerpTime + " alternate lerp time");
         isUpdating = StartCoroutine(CardUpdateRoutine(delay, altLerpTime));
 
         return isUpdating;
@@ -48,8 +54,6 @@ public class CardMoveManager : SingletonNetworkBehaviour<CardMoveManager>
             {
                 string slotName = slotID.Key;
                 CardSlot cs = slotID.Value;
-
-                //Debug.Log($"{playerID} + {cs.GetSlotID()} - Cards: " +  cs.Data.cardIDs.Count);
 
                 foreach (string cardID in cs.Data.cardIDs)
                 {
@@ -73,7 +77,7 @@ public class CardMoveManager : SingletonNetworkBehaviour<CardMoveManager>
     }
 
     // LOCAL Request for a card move
-    public void RequestMove(Card card, CardSlot slot)
+    public void RequestMove(Card card, CardSlot slot) // Overload 
     { 
         List<Card> cards = new();
         List<CardSlot> slots = new();
@@ -87,7 +91,7 @@ public class CardMoveManager : SingletonNetworkBehaviour<CardMoveManager>
     }
 
     // LOCAL Request for a card move
-    public void RequestMove(List<Card> cards, List<CardSlot> slots)
+    public void RequestMove(List<Card> cards, List<CardSlot> slots) //Assume a list of cards/target slots so we can package multiple card movements
     {
         if (cards == null || slots == null)
             { Debug.LogError("Card or Slot array is null"); return;}
@@ -139,11 +143,14 @@ public class CardMoveManager : SingletonNetworkBehaviour<CardMoveManager>
 
     private Card lastRequestedCard;
 
+
+    //The Following Network code is incomplete (FishNet [RPC]s are commented out for Local Offline playtesting) 
+
     // ServerRPC    (Client > Server | Runs on the Server)
     // ObserverRPC  (Server > all Clients | Runs on Clients)
     // TargetRPC    (Server > Specific Client | Runs on one Client)
 
-    //[ServerRpc(RequireOwnership = false)] //DO NOT FORGET TO UNCOMMENT
+    //[ServerRpc(RequireOwnership = false)] 
     private void RequestMoveCard_ServerRPC(CardMoveData[] moveData, NetworkConnection conn = null) //Client, run on Server to req move
     {
         if (moveData == null || moveData.Length == 0)
@@ -157,16 +164,16 @@ public class CardMoveManager : SingletonNetworkBehaviour<CardMoveManager>
         if(valid)
         {
             ReceiveMoveCard_ObserverRPC(moveData);
-            ReturnRequestResults_TargetRPC(conn, true, moveData);
+            ReturnRequestResults_TargetRPC(conn, true, moveData); // Tell Client the move was valid via Positive Input Feedback
         }
         else
         {
-            ReturnRequestResults_TargetRPC(conn, false, moveData);
+            ReturnRequestResults_TargetRPC(conn, false, moveData); // Tell the client the move was invalid via Negative Input Feedback
             Debug.Log($"[Server] Invalid move for cardStack starting with : {moveData[0].cardID}");
         }
     }
 
-    //[TargetRpc]
+    //[TargetRpc] //Returns feedback to the Card Move Requester 
     private void ReturnRequestResults_TargetRPC(NetworkConnection conn, bool success, CardMoveData[] moveData)
     {
         foreach (var move in moveData) 

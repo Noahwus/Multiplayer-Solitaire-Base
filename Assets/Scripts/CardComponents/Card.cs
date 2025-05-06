@@ -3,6 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
+/// <summary>
+/// Card Operates as the hub for both GameObjects, as well as accessing the card data
+/// CardInstance Data will store data
+/// CardVisual affects visuals (materials, hover behaviours, Card specific input Feedbacks)
+/// Draggable and Moveable are for Drag behaviours, and Moving the card in game space
+/// </summary>
 public class Card : MonoBehaviour
 {
     private string _cardID;
@@ -30,7 +36,7 @@ public class Card : MonoBehaviour
 
     public void AssignOwnership(int playerID)
     {
-        //Assign ownership for FishNet here...
+        //Assign ownership for FishNet here later...
     }
 
     public bool HasModifier(string name)
@@ -41,7 +47,7 @@ public class Card : MonoBehaviour
     public void AddModifier(CardModifier modifier)
     {
         Data.AddModifier(modifier);
-        // Optionally update visuals here
+        // Optionally update visuals here for Card Power ups
     }
 
     public bool isBurried()
@@ -52,7 +58,7 @@ public class Card : MonoBehaviour
         return indexInSlot != -1 && indexInSlot < cs.Data.cardIDs.Count - 1;
     }
 
-    public void CheckFlip()
+    public void CheckFlip() 
     {
         if (Data.isFaceUp != CardVisuals.isFaceUp)
         {
@@ -72,12 +78,12 @@ public class Card : MonoBehaviour
         return Data.isFaceUp;
     }
 
-    public void Shake()
+    public void Shake() // Negative Input Feedback
     {
         CardVisuals.Shake();
     }
 
-    public void Pulse()
+    public void Pulse() // Positive Input Feedback
     {
         CardVisuals.Pulse();
     }

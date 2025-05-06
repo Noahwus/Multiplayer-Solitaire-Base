@@ -3,6 +3,10 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
+/// <summary>
+/// PlayerSlot holds reference to each slot a specific player owns, for easier access
+/// </summary>
+
 [System.Serializable]
 public class PlayerSlot 
 {
@@ -25,10 +29,4 @@ public class PlayerSlot
         CardSlots = newDict;
     }
 
-    public struct NetworkData
-    {
-        public int      playerID;
-        public string[] slotIDs; // CardSlot.GetSlotID()
-        public int[]    slotIndices;
-    }
 }

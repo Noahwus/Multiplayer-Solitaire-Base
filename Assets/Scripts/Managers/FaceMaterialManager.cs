@@ -7,9 +7,7 @@ public class FaceMaterialManager : Singleton<FaceMaterialManager>
 {
     public Material[] FaceMats;
     public List<string> stdCardIndexing = new List<string>();
-    public static string[] suits = new string[] { "Clubs", "Diamonds", "Hearts", "Spades" };
-    public static string[] values = new string[] { "Ace", "2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King" };
-
+    
     public Material[] PowerUpFaceMats;
     public Material[] BackFaceMats;
     public Material[] BackFaceShape;
@@ -24,7 +22,7 @@ public class FaceMaterialManager : Singleton<FaceMaterialManager>
         GenerateCardNames();
     }
 
-    public List<string> GenerateCardNames()
+    public List<string> GenerateCardNames() // Generating Standard Card Templates, so Cards can access the Correct Face Materials
     {
         stdCardIndexing = new List<string>();
         List<CardTemplate> templates = CardFactory.CreateStandardCardTemplates();

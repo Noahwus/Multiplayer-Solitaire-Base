@@ -20,6 +20,6 @@ public class CardTemplate
     }
 }
 [System.Serializable]
-public enum CardColor { Red, Black, Gold }
+public enum CardColor { Red, Black, Gold } //Standard Colors + Wild Card Color
 [System.Serializable]
-public enum CardSuit { Clubs, Diamonds, Hearts, Spades, Wild }
+public enum CardSuit { Clubs, Diamonds, Hearts, Spades, Wild } //Wild Cards will operate Differently. Use: StandardCardSuits for standard

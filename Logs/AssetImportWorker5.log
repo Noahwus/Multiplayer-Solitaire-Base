@@ -1,0 +1,756 @@
+Using pre-set license
+Built from '2022.3/release' branch; Version is '2022.3.61f1 (6c53ebaf375d) revision 7099371'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'en' Physical Memory: 65305 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.61f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+C:/UnityProjects/Multiplayer-Solitaire-Base
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+56983
+Successfully changed project path to: C:/UnityProjects/Multiplayer-Solitaire-Base
+C:/UnityProjects/Multiplayer-Solitaire-Base
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [5600]  Target information:
+
+Player connection [5600]  * "[IP] 192.168.1.186 [Port] 0 [Flags] 2 [Guid] 1110506808 [EditorId] 1110506808 [Version] 1048832 [Id] WindowsEditor(7,Noahw) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [5600] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [5600] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.61f1 (6c53ebaf375d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.61f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/UnityProjects/Multiplayer-Solitaire-Base/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3080 (ID=0x2206)
+    Vendor:   NVIDIA
+    VRAM:     10053 MB
+    Driver:   32.0.15.7602
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.61f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.61f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.61f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56000
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.61f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006821 seconds.
+- Loaded All Assemblies, in  0.262 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.174 seconds
+Domain Reload Profiling: 435ms
+	BeginReloadAssembly (86ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (101ms)
+		LoadAssemblies (83ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (99ms)
+			TypeCache.Refresh (98ms)
+				TypeCache.ScanAssembly (88ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (174ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (139ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (95ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.155 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.213 seconds
+Domain Reload Profiling: 367ms
+	BeginReloadAssembly (105ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (18ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (4ms)
+		LoadAssemblies (60ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (3ms)
+			TypeCache.Refresh (2ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (214ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (143ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (18ms)
+			ProcessInitializeOnLoadAttributes (100ms)
+			ProcessInitializeOnLoadMethodAttributes (11ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 45 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3 unused Assets / (48.8 KB). Loaded Objects now: 516.
+Memory consumption went from 51.9 MB to 51.9 MB.
+Total: 2.456600 ms (FindLiveObjects: 0.041000 ms CreateObjectMapping: 0.004100 ms MarkObjects: 2.349300 ms  DeleteObjects: 0.061200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 100117.881841 seconds.
+  path: Assets/Card_Visuals/PNG-cards-1.3/ace_of_spades.png
+  artifactKey: Guid(9bf5114c4f7c631478bc4b3555837af4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Card_Visuals/PNG-cards-1.3/ace_of_spades.png using Guid(9bf5114c4f7c631478bc4b3555837af4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '955606ac5931ca145494cef98b37b245') in 0.116917 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 143.323550 seconds.
+  path: Assets/Scripts/CardComponents/CardInstance.cs
+  artifactKey: Guid(de4a8d8b1dc60054c871f0086c4c961c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CardComponents/CardInstance.cs using Guid(de4a8d8b1dc60054c871f0086c4c961c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '87cac5d3a44203e58967b0450eb5967a') in 0.001038 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.965291 seconds.
+  path: Assets/Scripts/CardComponents/CardInstance.cs
+  artifactKey: Guid(de4a8d8b1dc60054c871f0086c4c961c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/CardComponents/CardInstance.cs using Guid(de4a8d8b1dc60054c871f0086c4c961c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'a9c764cf910572875d62761c00f85ba9') in 0.010900 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 187.897247 seconds.
+  path: Assets/Scripts/CardComponents/Card.cs
+  artifactKey: Guid(af8d9ae4fb0e64c40b9bf91fe7962b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CardComponents/Card.cs using Guid(af8d9ae4fb0e64c40b9bf91fe7962b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'ae0057d5c45d73775140ed210848fed3') in 0.000538 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.979742 seconds.
+  path: Assets/Scripts/CardComponents/Card.cs
+  artifactKey: Guid(af8d9ae4fb0e64c40b9bf91fe7962b6c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/CardComponents/Card.cs using Guid(af8d9ae4fb0e64c40b9bf91fe7962b6c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '937f1064ea99d2db157f9e3376f27b9a') in 0.008257 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 38.580382 seconds.
+  path: Assets/Scripts/CardComponents/CardFactory.cs
+  artifactKey: Guid(ba8ef0871067053428614f1be00358df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CardComponents/CardFactory.cs using Guid(ba8ef0871067053428614f1be00358df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '4b4d28f6d6644ae6b188b1a9e8b00713') in 0.000420 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.987662 seconds.
+  path: Assets/Scripts/CardComponents/CardFactory.cs
+  artifactKey: Guid(ba8ef0871067053428614f1be00358df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/CardComponents/CardFactory.cs using Guid(ba8ef0871067053428614f1be00358df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'c093d4932216d4ed069bb72a39617a82') in 0.009630 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 78.885897 seconds.
+  path: Assets/Scripts/CardComponents/CardModifiers.cs
+  artifactKey: Guid(c5badc5459f6e3a4cac675ecadd5c355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CardComponents/CardModifiers.cs using Guid(c5badc5459f6e3a4cac675ecadd5c355) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '7ffe296c3ae9f2e5c4fdb4e99942c8c6') in 0.000417 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.021115 seconds.
+  path: Assets/Scripts/CardComponents/CardTemplate.cs
+  artifactKey: Guid(d71c0c5fa51d3254ab35d5654bea0223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CardComponents/CardTemplate.cs using Guid(d71c0c5fa51d3254ab35d5654bea0223) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'e786aa32e503d749b04216f7926040b3') in 0.000404 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.961110 seconds.
+  path: Assets/Scripts/CardComponents/CardModifiers.cs
+  artifactKey: Guid(c5badc5459f6e3a4cac675ecadd5c355) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/CardComponents/CardModifiers.cs using Guid(c5badc5459f6e3a4cac675ecadd5c355) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '3b3d88375858eea2fa190b48e7450a87') in 0.018043 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 48.989404 seconds.
+  path: Assets/Scripts/CardComponents/CardTemplate.cs
+  artifactKey: Guid(d71c0c5fa51d3254ab35d5654bea0223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CardComponents/CardTemplate.cs using Guid(d71c0c5fa51d3254ab35d5654bea0223) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '2710087fbb51b33b46a913e116e20497') in 0.000372 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.026055 seconds.
+  path: Assets/Scripts/CardComponents/CardVisual.cs
+  artifactKey: Guid(d9777e1df52810d4ba98014dc3b60382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CardComponents/CardVisual.cs using Guid(d9777e1df52810d4ba98014dc3b60382) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '461804f3566a12549333f9ae2eb38428') in 0.000399 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.956113 seconds.
+  path: Assets/Scripts/CardComponents/CardTemplate.cs
+  artifactKey: Guid(d71c0c5fa51d3254ab35d5654bea0223) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/CardComponents/CardTemplate.cs using Guid(d71c0c5fa51d3254ab35d5654bea0223) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '1f8faf700aa21715b416fb14c2f82311') in 0.020869 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 23.265768 seconds.
+  path: Assets/Scripts/CardComponents/CardVisual.cs
+  artifactKey: Guid(d9777e1df52810d4ba98014dc3b60382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CardComponents/CardVisual.cs using Guid(d9777e1df52810d4ba98014dc3b60382) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'ebb9db2d6a8eeb3193541c207b265d1f') in 0.000376 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.983713 seconds.
+  path: Assets/Scripts/CardComponents/CardVisual.cs
+  artifactKey: Guid(d9777e1df52810d4ba98014dc3b60382) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/CardComponents/CardVisual.cs using Guid(d9777e1df52810d4ba98014dc3b60382) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'c9eeead94d82cf8fc4ddf1cd9ce6283e') in 0.009060 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.160423 seconds.
+  path: Assets/Scripts/CardComponents/Draggable.cs
+  artifactKey: Guid(920ab068035a7754eba94d4dd84a5e2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CardComponents/Draggable.cs using Guid(920ab068035a7754eba94d4dd84a5e2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '02fc11df9510a9afd06cf69781fc11ec') in 0.000427 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 10.305681 seconds.
+  path: Assets/Scripts/CardComponents/Moveable.cs
+  artifactKey: Guid(20d21de166a11d54e86dbfe218ad2525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CardComponents/Moveable.cs using Guid(20d21de166a11d54e86dbfe218ad2525) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '23ad05ab13ef729f0ef6c2a518822eee') in 0.000417 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 24.237054 seconds.
+  path: Assets/Scripts/CardComponents/Moveable.cs
+  artifactKey: Guid(20d21de166a11d54e86dbfe218ad2525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CardComponents/Moveable.cs using Guid(20d21de166a11d54e86dbfe218ad2525) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '75bf847c20914d7955aa032e54cd7d59') in 0.000398 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.985031 seconds.
+  path: Assets/Scripts/CardComponents/Moveable.cs
+  artifactKey: Guid(20d21de166a11d54e86dbfe218ad2525) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/CardComponents/Moveable.cs using Guid(20d21de166a11d54e86dbfe218ad2525) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '79384d19a5c8f6123826bab8e1edefad') in 0.008942 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.423118 seconds.
+  path: Assets/Scripts/CardComponents/PhantomCard.cs
+  artifactKey: Guid(980ad180cb1694144a9d4e2533e8363e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CardComponents/PhantomCard.cs using Guid(980ad180cb1694144a9d4e2533e8363e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '94d6d5a896174cf70ca1d318e8ab65b2') in 0.000412 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 22.640091 seconds.
+  path: Assets/Scripts/CardSlots/CardSlot.cs
+  artifactKey: Guid(cc5215de254a244448c503272a59437b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CardSlots/CardSlot.cs using Guid(cc5215de254a244448c503272a59437b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'c7721e8b1e9c8533fcea60d9d4c8b4c2') in 0.000438 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 49.248667 seconds.
+  path: Assets/Scripts/CardSlots/PlayerSlot.cs
+  artifactKey: Guid(f3ed0c73c01e58e4f987afe9aa9ead5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CardSlots/PlayerSlot.cs using Guid(f3ed0c73c01e58e4f987afe9aa9ead5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'edbe8d581f097d0cb2e955408f57b932') in 0.000452 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 62.593695 seconds.
+  path: Assets/Scripts/CardSlots/PlayerSlot.cs
+  artifactKey: Guid(f3ed0c73c01e58e4f987afe9aa9ead5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CardSlots/PlayerSlot.cs using Guid(f3ed0c73c01e58e4f987afe9aa9ead5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '6a741983c2bdc537b14a3275d298c7be') in 0.000431 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.037925 seconds.
+  path: Assets/Scripts/CardSlots/SlotData.cs
+  artifactKey: Guid(28c351674f47f554dbe3a044629132f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CardSlots/SlotData.cs using Guid(28c351674f47f554dbe3a044629132f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '74b363eee5ae1812032beb993d303089') in 0.000376 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.944422 seconds.
+  path: Assets/Scripts/CardSlots/PlayerSlot.cs
+  artifactKey: Guid(f3ed0c73c01e58e4f987afe9aa9ead5b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/CardSlots/PlayerSlot.cs using Guid(f3ed0c73c01e58e4f987afe9aa9ead5b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'e598a94d99e15711a93a0fc60d2ae2f4') in 0.014809 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 97.725596 seconds.
+  path: Assets/Scripts/Managers/CardManager.cs
+  artifactKey: Guid(fb063ca39a011434fb5ca4cc994c8770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Managers/CardManager.cs using Guid(fb063ca39a011434fb5ca4cc994c8770) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'addda82b2c999580d97a38ed860aa7f5') in 0.000473 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.942832 seconds.
+  path: Assets/Scripts/Managers/CardInteractManager.cs
+  artifactKey: Guid(147f912d76e17e245840983ef2107ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Managers/CardInteractManager.cs using Guid(147f912d76e17e245840983ef2107ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'c30d00eedecf06773941949aefe36e53') in 0.000398 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.678460 seconds.
+  path: Assets/Scripts/Managers/FaceMaterialManager.cs
+  artifactKey: Guid(e6c51fda30c3a1242922ce5ade989a26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Managers/FaceMaterialManager.cs using Guid(e6c51fda30c3a1242922ce5ade989a26) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '6f7dfc0cf41b24d1deb17351d7a4576e') in 0.000395 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.280268 seconds.
+  path: Assets/Scripts/Managers/CardMoveManager.cs
+  artifactKey: Guid(2cf6873308516a542978508b304c0f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Managers/CardMoveManager.cs using Guid(2cf6873308516a542978508b304c0f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '22a80949247eb50e7f161e8145f0050e') in 0.000381 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 371.257049 seconds.
+  path: Assets/Scripts/Managers/CardMoveManager.cs
+  artifactKey: Guid(2cf6873308516a542978508b304c0f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Managers/CardMoveManager.cs using Guid(2cf6873308516a542978508b304c0f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '815288a522b09421a882ada85d0f8588') in 0.000927 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.978779 seconds.
+  path: Assets/Scripts/CardSlots/SlotData.cs
+  artifactKey: Guid(28c351674f47f554dbe3a044629132f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/CardSlots/SlotData.cs using Guid(28c351674f47f554dbe3a044629132f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '874d4e7a143a32986ca32750d037043a') in 0.019163 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 75.371954 seconds.
+  path: Assets/Scripts/Managers/FaceMaterialManager.cs
+  artifactKey: Guid(e6c51fda30c3a1242922ce5ade989a26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Managers/FaceMaterialManager.cs using Guid(e6c51fda30c3a1242922ce5ade989a26) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'fbb51554ea646e2ee758d215a46eb154') in 0.000438 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.980174 seconds.
+  path: Assets/Scripts/Managers/FaceMaterialManager.cs
+  artifactKey: Guid(e6c51fda30c3a1242922ce5ade989a26) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/Managers/FaceMaterialManager.cs using Guid(e6c51fda30c3a1242922ce5ade989a26) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '8d3067c517a4c8a2127fb671f4acfc64') in 0.014766 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.770049 seconds.
+  path: Assets/Scripts/Managers/PhantomManager.cs
+  artifactKey: Guid(da3bd9bb263afe94f9b3957bccd439c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Managers/PhantomManager.cs using Guid(da3bd9bb263afe94f9b3957bccd439c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '385b10f6e4fa44b0153b090b935de956') in 0.000442 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.495456 seconds.
+  path: Assets/Scripts/Managers/PlayerManager.cs
+  artifactKey: Guid(9c95f3ab8deb9f841b9fb1748358cb6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Managers/PlayerManager.cs using Guid(9c95f3ab8deb9f841b9fb1748358cb6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '6cab73acb0bd25675f9728641051d1f0') in 0.000416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 10.018602 seconds.
+  path: Assets/Scripts/Managers/SlotManager.cs
+  artifactKey: Guid(77e043f9a4b8c8341906873f7c7c332e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Managers/SlotManager.cs using Guid(77e043f9a4b8c8341906873f7c7c332e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '283e8e957ab08ba591607ff12b2cc31e') in 0.000521 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.825490 seconds.
+  path: Assets/Scripts/Managers/SoundManager.cs
+  artifactKey: Guid(4707b56f84e975c4cab22efe4bcc11e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Managers/SoundManager.cs using Guid(4707b56f84e975c4cab22efe4bcc11e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '2e726bace73c54ec1a022ac8bd3536b4') in 0.000878 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 41.254885 seconds.
+  path: Assets/Scripts/Utils/DeckUtils.cs
+  artifactKey: Guid(097bac6abbb5e804ba4dc2118697d254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Utils/DeckUtils.cs using Guid(097bac6abbb5e804ba4dc2118697d254) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '6d3c2cd4597b07e35f9379134c4ea91b') in 0.000400 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006340 seconds.
+  path: Assets/Scripts/Managers/SlotManager.cs
+  artifactKey: Guid(77e043f9a4b8c8341906873f7c7c332e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/Managers/SlotManager.cs using Guid(77e043f9a4b8c8341906873f7c7c332e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '959bfd9d8e3dc20ec2d43df0bc70bb04') in 0.009876 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.399903 seconds.
+  path: Assets/Scripts/Utils/Easing.cs
+  artifactKey: Guid(3757a90d2e2de964c97f2b34f011e177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Utils/Easing.cs using Guid(3757a90d2e2de964c97f2b34f011e177) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '4999fe33ca1dd8a31a814983cc9afe76') in 0.000404 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 8.871320 seconds.
+  path: Assets/Scripts/Utils/SlotOutlineShaderHelper.cs
+  artifactKey: Guid(5ecbe2a7316a7d8419916e1f29ffa4ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Utils/SlotOutlineShaderHelper.cs using Guid(5ecbe2a7316a7d8419916e1f29ffa4ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '13c0af10ed4da0b6376a2a1e5782fc12') in 0.000425 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.500007 seconds.
+  path: Assets/Scripts/Utils/SlotLayoutHelper.cs
+  artifactKey: Guid(cc398cf2f8304504fbacc52ca8bac9d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Utils/SlotLayoutHelper.cs using Guid(cc398cf2f8304504fbacc52ca8bac9d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '27e47508632abdf78e27b4cd908392ac') in 0.000414 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.920072 seconds.
+  path: Assets/Scripts/Utils/MouseHoverScript.cs
+  artifactKey: Guid(627c9314704babc4398faf6f02283e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Utils/MouseHoverScript.cs using Guid(627c9314704babc4398faf6f02283e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '4a94ffafd533473a6a85b02bd836530e') in 0.000471 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 13.056580 seconds.
+  path: Assets/Scripts/Utils/SingletonNetworkBehaviour.cs
+  artifactKey: Guid(c686246dbd3c9854fb51a61a5857116a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Utils/SingletonNetworkBehaviour.cs using Guid(c686246dbd3c9854fb51a61a5857116a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '732949fcf0cb102ccb374057d382311d') in 0.000457 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.752370 seconds.
+  path: Assets/Scripts/Utils/ParticleMover.cs
+  artifactKey: Guid(0f7d3b54f3ca1c2489f81758fb5a6755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Utils/ParticleMover.cs using Guid(0f7d3b54f3ca1c2489f81758fb5a6755) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '715182a8ef2c2e7e307f898f4f5742ee') in 0.000588 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 15.225234 seconds.
+  path: Assets/Scripts/Utils/Utils.cs
+  artifactKey: Guid(da05a417d62dab84d91b35dcb39a203d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Utils/Utils.cs using Guid(da05a417d62dab84d91b35dcb39a203d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '26451bed8ea12427029df7ba4e4cd16e') in 0.000384 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.861434 seconds.
+  path: Assets/Scripts/Utils/SlotHelper.cs
+  artifactKey: Guid(5ab1c98e9e209784496d26ad585b2bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Utils/SlotHelper.cs using Guid(5ab1c98e9e209784496d26ad585b2bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '3be17db1907aa4cef259180d851148bc') in 0.000497 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.923543 seconds.
+  path: Assets/Scripts/Utils/Singleton.cs
+  artifactKey: Guid(374aaa384182d0f4a932f6fa5665bbb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Utils/Singleton.cs using Guid(374aaa384182d0f4a932f6fa5665bbb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'f890ad12d49eea0210cac286ad398ce3') in 0.000398 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.280886 seconds.
+  path: Assets/Scripts/Utils/Quit.cs
+  artifactKey: Guid(ba893e752534e31429b947b5f739b69d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Utils/Quit.cs using Guid(ba893e752534e31429b947b5f739b69d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'd9dd4b8e35bf6f70a76f8290db0f70c7') in 0.000411 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.874324 seconds.
+  path: Assets/Scripts/Utils/CardUtils.cs
+  artifactKey: Guid(89be6574bae498344ab0467ecf9cb9e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Utils/CardUtils.cs using Guid(89be6574bae498344ab0467ecf9cb9e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'c4d6f856861b0d5e2cca8439ff27617a') in 0.000616 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 9.696331 seconds.
+  path: Assets/Scripts/DataSerialization/CardModifierData.cs
+  artifactKey: Guid(138cbb4b188e08543a9a85f4b492cef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DataSerialization/CardModifierData.cs using Guid(138cbb4b188e08543a9a85f4b492cef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'ce6065d7f0b643d8c48e0ee55f601174') in 0.000504 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.463156 seconds.
+  path: Assets/Scripts/DataSerialization/CardMoveData.cs
+  artifactKey: Guid(efce118d89d67b94d8fdbb079780bc0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DataSerialization/CardMoveData.cs using Guid(efce118d89d67b94d8fdbb079780bc0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'ab980308a41c48fc437294e7734d4f60') in 0.000411 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 21.878267 seconds.
+  path: Assets/Scripts/DataSerialization/CardMoveData.cs
+  artifactKey: Guid(efce118d89d67b94d8fdbb079780bc0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DataSerialization/CardMoveData.cs using Guid(efce118d89d67b94d8fdbb079780bc0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '917f3ea1cd021cbb6fe5fefbebcc3de4') in 0.000377 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.012692 seconds.
+  path: Assets/Scripts/DataSerialization/OwnerSteamPair.cs
+  artifactKey: Guid(ef47c87e335cc5945a12abab85830cbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DataSerialization/OwnerSteamPair.cs using Guid(ef47c87e335cc5945a12abab85830cbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '3826b351a4feeb7029c48f8b678d4e5b') in 0.000391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.022704 seconds.
+  path: Assets/Scripts/DataSerialization/CardMoveData.cs
+  artifactKey: Guid(efce118d89d67b94d8fdbb079780bc0e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/DataSerialization/CardMoveData.cs using Guid(efce118d89d67b94d8fdbb079780bc0e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '7b18a821869cbd7ec328182dd35f45da') in 0.015800 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 13.708417 seconds.
+  path: Assets/Scripts/CardSlots/SlotData.cs
+  artifactKey: Guid(28c351674f47f554dbe3a044629132f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CardSlots/SlotData.cs using Guid(28c351674f47f554dbe3a044629132f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'accd5da472b0b5e225f00323e3fcaa35') in 0.000576 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.826278 seconds.
+  path: Assets/Scripts/CardSlots/SlotNode.cs
+  artifactKey: Guid(8a69044f9471a994ea79fcb64b8d1c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CardSlots/SlotNode.cs using Guid(8a69044f9471a994ea79fcb64b8d1c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '0fb930975aea8c4c47079213769eedad') in 0.000674 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 13.614789 seconds.
+  path: Assets/Scripts/CardSlots/SlotNode.cs
+  artifactKey: Guid(8a69044f9471a994ea79fcb64b8d1c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CardSlots/SlotNode.cs using Guid(8a69044f9471a994ea79fcb64b8d1c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'f08528ac42ad6502456e98d6f2686f8a') in 0.000376 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.981428 seconds.
+  path: Assets/Scripts/CardSlots/SlotNode.cs
+  artifactKey: Guid(8a69044f9471a994ea79fcb64b8d1c51) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/CardSlots/SlotNode.cs using Guid(8a69044f9471a994ea79fcb64b8d1c51) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '83d0b13da89e19b023dfadaa3bcc6cba') in 0.008797 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 75.350878 seconds.
+  path: Assets/Scripts/CardSlots/SlotNode.cs
+  artifactKey: Guid(8a69044f9471a994ea79fcb64b8d1c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CardSlots/SlotNode.cs using Guid(8a69044f9471a994ea79fcb64b8d1c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '5ec7cd39837656d3e436690881b940e9') in 0.000407 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.982591 seconds.
+  path: Assets/Scripts/CardSlots/SlotNode.cs
+  artifactKey: Guid(8a69044f9471a994ea79fcb64b8d1c51) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/CardSlots/SlotNode.cs using Guid(8a69044f9471a994ea79fcb64b8d1c51) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '5aacfc20111bc60ff7fc370c8bf41c40') in 0.008879 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 2.405333 seconds.
+  path: Assets/Settings/SampleSceneProfile.asset
+  artifactKey: Guid(a6560a915ef98420e9faacc1c7438823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/SampleSceneProfile.asset using Guid(a6560a915ef98420e9faacc1c7438823) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '491412cd81a54a283755719ae208676e') in 0.001682 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.005929 seconds.
+  path: Assets/Settings/URP-HighFidelity.asset
+  artifactKey: Guid(7b7fd9122c28c4d15b667c7040e3b3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/URP-HighFidelity.asset using Guid(7b7fd9122c28c4d15b667c7040e3b3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'fc4d8d097882f3131e94e1ae02c70ae8') in 0.000696 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Settings/URP-Performant.asset
+  artifactKey: Guid(d0e2fc18fe036412f8223b3b3d9ad574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/URP-Performant.asset using Guid(d0e2fc18fe036412f8223b3b3d9ad574) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '20c5b472255f04b6a6f439480a956a0a') in 0.000852 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1

@@ -5,6 +5,12 @@ using System.ComponentModel;
 using System.Security.Cryptography;
 using UnityEngine;
 
+/// <summary>
+/// SlotData is where we hold where our Cards are. "CardIDs" holds each card in their order on the stack. Slot Type tells us how
+/// our cards should behave. Adding and Removing cards will be called my "SlotManager" which uses MoveCardAuthoritative() after verifying validity of move
+/// in Solitaire.cs
+/// </summary>
+
 [System.Serializable]
 public class SlotData 
 {
@@ -14,7 +20,6 @@ public class SlotData
     public string   slotID;
 
     public List<string> cardIDs = new List<string>();
-    // private int _version; // potentail anticheat? check sync version, or revert state...
 
     public SlotData( int ownerid, int index, SlotType Slottype)
     {
@@ -68,7 +73,6 @@ public class SlotData
         return cards;
     }
 
-
     public void SetAllCards(List<string> newCardIDs) 
     {
         cardIDs.Clear();
@@ -90,7 +94,6 @@ public class SlotData
     {
         if (cardIDs.Count <= 0) return null;
         string top = cardIDs[^1];
-        //cardIDs.RemoveAt(cardIDs.Count - 1);
         return top;
     }
     public Card GetTopCard()

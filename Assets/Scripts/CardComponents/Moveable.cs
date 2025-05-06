@@ -27,13 +27,12 @@ public class Moveable : MonoBehaviour
         {
             float t = elapsed / lerpTime;
             transform.position = EaseFunctions.Interpolate(startPosition, tar, t, moveEase);
-            //transform.position = Vector3.Lerp(startPosition, tar, t);
-
+          
             elapsed += Time.deltaTime;
             yield return null;
         }
 
-        transform.position = tar; // Snap exactly to target at end
+        transform.position = tar; // Snap exactly to targetLocation at end
         isMoving = null;
     }
 

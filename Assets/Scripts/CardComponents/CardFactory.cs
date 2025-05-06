@@ -25,7 +25,6 @@ public static class CardFactory
 
     public static List<CardTemplate> CreateStandardCardTemplates()
     {
-        string buffer = ": Card Templates :";
         List<CardTemplate> templates = new(52);
 
         foreach (CardSuit suit in standardSuits) //System.Enum.GetValues(typeof(CardSuit))
@@ -35,12 +34,9 @@ public static class CardFactory
             for (int value = 1; value <= 13; value++)
             {
                 string name = $"{CardUtils.GetDisplayValue(value)}_of_{suit.ToString()}";
-                buffer += $"\n{name}";
                 templates.Add(new CardTemplate(name, color, suit, value));
             }
         }
-
-        //Debug.Log(buffer);
         return templates;
     }
 

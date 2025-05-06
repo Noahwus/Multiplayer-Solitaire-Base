@@ -1,5 +1,9 @@
 using UnityEngine;
 
+/// <summary>
+/// CardModifer will serve as an "add on" to cards later, when we upgrade cards with Power Ups. This is largely placeholder
+/// </summary>
+
 [System.Serializable]
 public class CardModifier  
 {
@@ -8,7 +12,6 @@ public class CardModifier
     public float value          { get; private set; }   // Optional effect magnitude
     public bool isActive        { get; private set; }
 
-    
     public void Activate()
     {
         isActive = true;
@@ -19,10 +22,6 @@ public class CardModifier
         isActive = false;
     }
 
-
-
-    #region Valuable Data Yeet
-    // Set Up Data // Serialize Data // Deserialize Data
     public CardModifier(string modName, string description = "", float value = -1f)
     {
         modifierName = modName;
@@ -31,25 +30,4 @@ public class CardModifier
         isActive = true;
     }
 
-    public CardModifierData ToData()
-    {
-        return new CardModifierData(modifierName, description, value, isActive);
-    }
-
-    public static CardModifier FromData(CardModifierData data)
-    {
-        CardModifier modifier = new CardModifier(data.modifierName)
-        {
-            description = data.description,
-            value = data.value
-        };
-
-        if (data.isActive)
-            modifier.Activate();
-        else
-            modifier.Deactivate();
-
-        return modifier;
-    }
-    #endregion
 } 

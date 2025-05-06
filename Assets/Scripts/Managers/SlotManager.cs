@@ -118,12 +118,9 @@ public class SlotManager : Singleton<SlotManager>
 
         // Check Lane Flip
         CheckPlayLanesTopCardFlipped();
-        // Check card flip (recycle)
 
         //Check Deck Empty
         CheckDeckEmpty();
-
-        // fliped for any other reason?
     }
 
     public void AddCardToSlot( Card card, CardSlot slot)
@@ -138,7 +135,6 @@ public class SlotManager : Singleton<SlotManager>
         SlotData slotData   = slot.Data;
 
         slotData.AddCard(cardID);
-        //Debug.Log($"Adding {cardID} to {slot.GetSlotID()}...");
 
         UpdateCardSlotMapping(card, slot);
     }
@@ -314,9 +310,6 @@ public class SlotManager : Singleton<SlotManager>
             else {  cs.Node.ToggleCollider(false); }    
         }
     }
-
-
-
 
     
 }
